@@ -58,7 +58,7 @@ namespace GestaoTestesSoftwareTest
             var resultado = casoTeste.ValidateIdentifier(entrada);
 
             //ACT
-            Assert.True(resultado);
+            Assert.False(resultado);
         }
 
         [Fact]
@@ -86,7 +86,7 @@ namespace GestaoTestesSoftwareTest
             var resultado = casoTeste.ValidateIdentifier(entrada);
 
             //ACT
-            Assert.True(resultado);
+            Assert.False(resultado);
         }
 
         [Fact]
@@ -108,13 +108,13 @@ namespace GestaoTestesSoftwareTest
         {
             //ARRANGE
             var casoTeste = new Identifier();
-            var entrada = String.Empty;
+            var entrada = "";
 
             //ASSERT
             var resultado = casoTeste.ValidateIdentifier(entrada);
 
             //ACT
-            Assert.True(resultado);
+            Assert.False(resultado);
         }
 
         [Fact]
@@ -142,7 +142,7 @@ namespace GestaoTestesSoftwareTest
             var resultado = casoTeste.ValidateIdentifier(entrada);
 
             //ACT
-            Assert.True(resultado);
+            Assert.False(resultado);
         }
 
     }

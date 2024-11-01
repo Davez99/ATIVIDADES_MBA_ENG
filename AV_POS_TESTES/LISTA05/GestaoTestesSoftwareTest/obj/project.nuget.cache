@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5PuowVDUhVNddU1W7jUvsRC2U9vkEZgYootxwshGwtLrHrdX8MTGsvjS8ycJssdZfV3Y3UsVzpjg0vIZ1iT+7w==",
+  "dgSpecHash": "mKWjIHuC9nbuT7NMcaUlcGCTP08WnMT4esarwEs/42sD8cLOWYiwLze/ZzCdk1IS15hpwzH1wq4IY9IEvYf74w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
+  "projectFilePath": "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davi.silva\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\davi.silva\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

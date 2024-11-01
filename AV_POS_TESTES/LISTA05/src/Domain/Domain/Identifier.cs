@@ -11,6 +11,7 @@ namespace Domain
         {
             char achar;
             bool validId = false;
+            if(string.IsNullOrEmpty(s)) return false; // Correção CT6
 
             achar = s[0];
             validId = ValidStartChar(achar);
@@ -27,7 +28,7 @@ namespace Domain
                 }
             }
 
-            if (validId && s.Length >= 1 && s.Length < 6)
+            if (validId && s.Length >= 1 && s.Length <= 6)  //Correção CT7
                 return true;
             else
                 return false;

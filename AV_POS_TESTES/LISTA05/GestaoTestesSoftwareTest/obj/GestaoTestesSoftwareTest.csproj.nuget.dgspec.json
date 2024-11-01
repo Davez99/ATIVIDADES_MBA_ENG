@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj": {}
+    "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj": {
+    "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
+        "projectUniqueName": "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
         "projectName": "GestaoTestesSoftwareTest",
-        "projectPath": "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
+        "projectPath": "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\GestaoTestesSoftwareTest.csproj",
         "packagesPath": "C:\\Users\\davi.silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\obj\\",
+        "outputPath": "c:\\Users\\davi.silva\\repositorio\\ATIVIDADES_MBA_ENG\\AV_POS_TESTES\\LISTA05\\GestaoTestesSoftwareTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\davi.silva\\AppData\\Roaming\\NuGet\\NuGet.Config"
