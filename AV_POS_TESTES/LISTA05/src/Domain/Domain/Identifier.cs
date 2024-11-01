@@ -7,48 +7,47 @@ namespace Domain
 {
     public class Identifier
     {
-        public boolean validateIdentifier(String s)
+        public bool ValidateIdentifier(string s)
         {
             char achar;
-            boolean valid_id = false;
-            achar = s.charAt(0);
-            valid_id = valid_s(achar);
-            if (s.length() > 1)
+            bool validId = false;
+
+            achar = s[0];
+            validId = ValidStartChar(achar);
+
+            if (s.Length > 1)
             {
-                achar = s.charAt(1);
                 int i = 1;
-                while (i < s.length() - 1)
+                while (i < s.Length - 1)
                 {
-                    achar = s.charAt(i);
-                    if (!valid_f(achar))
-                        valid_id = false;
+                    achar = s[i];
+                    if (!ValidFollowingChar(achar))
+                        validId = false;
                     i++;
                 }
             }
 
-            if (valid_id && (s.length() >= 1) && (s.length() < 6))
+            if (validId && s.Length >= 1 && s.Length < 6)
                 return true;
             else
                 return false;
         }
 
-        public boolean valid_s(char ch)
+        public bool ValidStartChar(char ch)
         {
-            if (((ch >= 'A') && (ch <= 'Z'))
-                  || ((ch >= 'a') && (ch <= 'z')))
+            if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
                 return true;
             else
                 return false;
         }
 
-        public boolean valid_f(char ch)
+        public bool ValidFollowingChar(char ch)
         {
-            if (((ch >= 'A') && (ch <= 'Z'))
-                  || ((ch >= 'a') && (ch <= 'z'))
-                  || ((ch >= '0') && (ch <= '9')))
+            if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z') || (ch >= '0' && ch <= '9'))
                 return true;
             else
                 return false;
         }
     }
+
 }
